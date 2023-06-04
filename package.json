@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "a standard babel setup",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "nodemon ./index.js --exec babel-node -e js"
   },
@@ -25,4 +26,6 @@
     "nodemon": "^2.0.6"
 
   }
+
+  
 }
